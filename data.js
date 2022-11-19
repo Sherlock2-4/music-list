@@ -45,6 +45,6 @@ let songs = [
         name: 'On Melancholy Hill',
         path: 'assets/musics/On Melancholy Hill.mp3',
         artist: 'Gorillaz',
-        cover: 'assets/images/cover 8.jpg'
+        cover: 'assets/images/cover 8.png'
     },
 ]
