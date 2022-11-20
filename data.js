@@ -101,4 +101,10 @@ let songs = [
         artist: 'ITZY',
         cover: 'assets/images/cover 17.jpg'
     },
+    {
+        name: 'Boys Like You',
+        path: 'assets/musics/Boys Like You.mp3',
+        artist: 'ITZY',
+        cover: 'assets/images/cover 18.png'
+    },
 ]
