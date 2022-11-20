@@ -47,4 +47,46 @@ let songs = [
         artist: 'Gorillaz',
         cover: 'assets/images/cover 8.png'
     },
+    {
+        name: 'Lips of an angel',
+        path: 'assets/musics/Lips of an angel.mp3',
+        artist: 'Hinder',
+        cover: 'assets/images/cover 9.jpg'
+    },
+    {
+        name: 'My Sharona',
+        path: 'assets/musics/My Sharona.mp3',
+        artist: 'The Knack',
+        cover: 'assets/images/cover 10.jpg'
+    },
+    {
+        name: 'Where The Lines Overlap',
+        path: 'assets/musics/Where The Lines Overlap.mp3',
+        artist: 'Paramore',
+        cover: 'assets/images/cover 11.png'
+    },
+    {
+        name: 'When i Dream About You',
+        path: 'assets/musics/When i Dream About You.mp3',
+        artist: 'Gracenotes',
+        cover: 'assets/images/cover 12.jpg'
+    },
+    {
+        name: 'Robbers',
+        path: 'assets/musics/Robbers.mp3',
+        artist: 'The 1975',
+        cover: 'assets/images/cover 13.jpg'
+    },
+    {
+        name: 'Huling Sayaw',
+        path: 'assets/musics/Huling Sayaw.mp3',
+        artist: 'Kamikazee',
+        cover: 'assets/images/cover 14.jpg'
+    },
+    {
+        name: 'Until I Found You',
+        path: 'assets/musics/Until I Found You.mp3',
+        artist: 'Stephen Sanchez',
+        cover: 'assets/images/cover 15.jpg'
+    },
 ]
