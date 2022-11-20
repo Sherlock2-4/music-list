@@ -89,4 +89,10 @@ let songs = [
         artist: 'Stephen Sanchez',
         cover: 'assets/images/cover 15.jpg'
     },
+    {
+        name: 'Sandalan',
+        path: 'assets/musics/Sandalan.mp3',
+        artist: '6cyclemind',
+        cover: 'assets/images/cover 16.jpg'
+    },
 ]
