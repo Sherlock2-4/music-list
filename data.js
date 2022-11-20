@@ -1,9 +1,9 @@
 let songs = [
     {
-        name: 'Alive',
-        path: 'assets/musics/Alive.mp3',
-        artist: 'Warbly Jet',
-        cover: 'assets/images/cover 1.jpg'
+        name: 'Saan Man Patungo',
+        path: 'assets/musics/Saan Man Patungo.mp3',
+        artist: 'Parokya n Edgar',
+        cover: 'assets/images/cover 1.png'
     },
     {
         name: 'Closer Faster',
