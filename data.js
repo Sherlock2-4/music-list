@@ -95,4 +95,10 @@ let songs = [
         artist: '6cyclemind',
         cover: 'assets/images/cover 16.jpg'
     },
+    {
+        name: 'SNEAKERS',
+        path: 'assets/musics/SNEAKERS.mp3',
+        artist: 'ITZY',
+        cover: 'assets/images/cover 17.jpg'
+    },
 ]
