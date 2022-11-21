@@ -104,7 +104,7 @@ let songs = [
         name: 'Diksyonaryo',
         path: 'assets/musics/Diksyonaryo.mp3',
         artist: 'Chongkeys',
-        cover: 'assets/images/chong.jpg'
+        cover: 'assets/images/ohong.jpg'
     },
     {
         name: 'Halik Ni Hudas',
