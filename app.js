@@ -213,4 +213,4 @@ queue.forEach((item, i) => {
         setMusic(i);
         playBtn.click();
     })
-})
+})	

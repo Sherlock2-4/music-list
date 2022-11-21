@@ -6,11 +6,126 @@ let songs = [
         cover: 'assets/images/cover 1.png'
     },
     {
-        name: 'Closer Faster',
-        path: 'assets/musics/Closer Faster.mp3',
-        artist: 'Against the current',
-        cover: 'assets/images/cover 2.jpg'
+        name: 'Sandalan',
+        path: 'assets/musics/Sandalan.mp3',
+        artist: '6cyclemind',
+        cover: 'assets/images/cover 16.jpg'
     },
+    {
+        name: 'Huling Sayaw',
+        path: 'assets/musics/Huling Sayaw.mp3',
+        artist: 'Kamikazee',
+        cover: 'assets/images/cover 14.jpg'
+    },
+    {
+        name: 'When i Dream About You',
+        path: 'assets/musics/When i Dream About You.mp3',
+        artist: 'Gracenotes',
+        cover: 'assets/images/cover 12.jpg'
+    },
+    {
+        name: 'Julie Tearjerky',
+        path: 'assets/musics/Julie Tearjerky.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E.jpg'
+    },
+    {
+        name: 'Ang Huling El Bimbo',
+        path: 'assets/musics/Ang Huling El Bimbo.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E.jpg'
+    },
+    {
+        name: 'With A Smile',
+        path: 'assets/musics/With A Smile.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E.jpg'
+    },
+    {
+        name: 'Alapaap',
+        path: 'assets/musics/Alapaap.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E1.jpg'
+    },   {
+        name: 'Magasin',
+        path: 'assets/musics/Magasin.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E1.jpg'
+    },  
+    {
+        name: 'Minsan',
+        path: 'assets/musics/Minsan.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E1.jpg'
+    },
+    {
+        name: 'Huwag Mo Nang Itanong',
+        path: 'assets/musics/Huwag Mo Nang Itanong.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E2.jpg'
+    },
+    {
+        name: 'Overdrive',
+        path: 'assets/musics/Overdrive.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E2.jpg'
+    },
+    {
+        name: 'Torpedo',
+        path: 'assets/musics/Torpedo.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E2.jpg'
+    },
+    {
+        name: 'Ligaya',
+        path: 'assets/musics/Ligaya.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E3.jpg'
+    },
+    {
+        name: 'Pare Ko',
+        path: 'assets/musics/Pare Ko.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E3.jpg'
+    },
+    {
+        name: 'Toyang',
+        path: 'assets/musics/Toyang.mp3',
+        artist: 'EraserHeads',
+        cover: 'assets/images/cover E3.jpg'
+    },
+    {
+        name: 'Chiksilog',
+        path: 'assets/musics/Chiksilog.mp3',
+        artist: 'Kamikazee',
+        cover: 'assets/images/kamika.jpg'
+    },
+    {
+        name: 'Diksyonaryo',
+        path: 'assets/musics/Diksyonaryo.mp3',
+        artist: 'Chongkeys',
+        cover: 'assets/images/Chong.jpg'
+    },
+    {
+        name: 'Halik Ni Hudas',
+        path: 'assets/musics/Halik Ni Hudas.mp3',
+        artist: 'Wolfgang',
+        cover: 'assets/images/Halik Ni Hudas.jpg'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         name: 'Bright',
         path: 'assets/musics/Bright.mp3',
@@ -66,34 +181,16 @@ let songs = [
         cover: 'assets/images/cover 11.png'
     },
     {
-        name: 'When i Dream About You',
-        path: 'assets/musics/When i Dream About You.mp3',
-        artist: 'Gracenotes',
-        cover: 'assets/images/cover 12.jpg'
-    },
-    {
         name: 'Robbers',
         path: 'assets/musics/Robbers.mp3',
         artist: 'The 1975',
         cover: 'assets/images/cover 13.jpg'
     },
     {
-        name: 'Huling Sayaw',
-        path: 'assets/musics/Huling Sayaw.mp3',
-        artist: 'Kamikazee',
-        cover: 'assets/images/cover 14.jpg'
-    },
-    {
         name: 'Until I Found You',
         path: 'assets/musics/Until I Found You.mp3',
         artist: 'Stephen Sanchez',
         cover: 'assets/images/cover 15.jpg'
-    },
-    {
-        name: 'Sandalan',
-        path: 'assets/musics/Sandalan.mp3',
-        artist: '6cyclemind',
-        cover: 'assets/images/cover 16.jpg'
     },
     {
         name: 'SNEAKERS',
