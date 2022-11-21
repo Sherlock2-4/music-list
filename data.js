@@ -132,13 +132,13 @@ let songs = [
     },
     {
         name: 'Awitin Mo At Isasayaw Ko',
-        path: 'assets/musics/Awitin Mo At Isasayaw Ko.mp3',
+        path: 'assets/musics/01 Awitin Mo At Isasayaw Ko.mp3',
         artist: 'Vst & Company',
         cover: 'assets/images/vst.jfif'
     },
     {
         name: 'Magsayawan',
-        path: 'assets/musics/Magsayawan.mp3',
+        path: 'assets/musics/04 Magsayawan.mp3',
         artist: 'Vst & Company',
         cover: 'assets/images/vst.jpg'
     },
