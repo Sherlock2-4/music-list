@@ -110,8 +110,27 @@ let songs = [
         name: 'Halik Ni Hudas',
         path: 'assets/musics/Halik Ni Hudas.mp3',
         artist: 'Wolfgang',
-        cover: 'assets/images/Halik Ni Hudas.jpg'
+        cover: 'assets/images/wolf.jpg'
     },
+    {
+        name: 'Come Inside of My Heart',
+        path: 'assets/musics/Come Inside of My Heart.mp3',
+        artist: 'IV OF SPADES',
+        cover: 'assets/images/4v.jpg'
+    },
+    {
+        name: 'Leaves',
+        path: 'assets/musics/LEAVES.mp3',
+        artist: 'Ben & Ben',
+        cover: 'assets/images/ben.jpg'
+    },
+    {
+        name: 'Heaven Knows',
+        path: 'assets/musics/Heaven Knows.mp3',
+        artist: 'Orange and Lemons',
+        cover: 'assets/images/heaven.jpg'
+    },
+
 
 
 
