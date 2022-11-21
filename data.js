@@ -130,6 +130,18 @@ let songs = [
         artist: 'Orange and Lemons',
         cover: 'assets/images/heaven.jpg'
     },
+    {
+        name: 'Awitin Mo At Isasayaw Ko',
+        path: 'assets/musics/Awitin Mo At Isasayaw Ko.mp3',
+        artist: 'Vst & Company',
+        cover: 'assets/images/vst.jfif'
+    },
+    {
+        name: 'Magsayawan',
+        path: 'assets/musics/Magsayawan.mp3',
+        artist: 'Vst & Company',
+        cover: 'assets/images/vst.jpg'
+    },
 
 
 
