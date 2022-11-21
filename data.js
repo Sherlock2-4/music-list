@@ -140,7 +140,7 @@ let songs = [
         name: 'Magsayawan',
         path: 'assets/musics/04 Magsayawan.mp3',
         artist: 'Vst & Company',
-        cover: 'assets/images/vst.jpg'
+        cover: 'assets/images/vst.jfif'
     },
 
 
