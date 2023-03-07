@@ -1,6 +1,6 @@
 
 // an array of songs in the playlist
-let playlist = ["Saan Man Patungo.mp3", "Sandalan.mp3", "Huling Sayaw.mp3", "When i Dream About You.mp3", "Julie Tearjerky.mp3"];
+let playlist = ["cover 1.png", "cover 16.jpg", "cover 14.jpg", "cover E.jpg", "Julie Tearjerky.mp3"];
 
 // function to shuffle the playlist
 function shufflePlaylist() {
