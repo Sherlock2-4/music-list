@@ -1,16 +1,4 @@
 
-// an array of songs in the playlist
-let playlist = ["cover 1.png", "cover 16.jpg", "cover 14.jpg", "cover E.jpg", "Julie Tearjerky.mp3"];
-
-// function to shuffle the playlist
-function shufflePlaylist() {
-  for (let i = playlist.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
-  }
-  console.log("Shuffled playlist: ", playlist);
-}
-
 let songs = [
     {
         name: 'Saan Man Patungo',
