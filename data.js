@@ -143,6 +143,11 @@ let songs = [
         cover: 'assets/images/vst.jfif'
     },
 
+    function playRandom(){
+        isRandom = true;
+        randomIcon.classList.add('randomActive');
+    },
+    
 
 
 
