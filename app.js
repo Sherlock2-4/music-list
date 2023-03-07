@@ -197,7 +197,7 @@ repeatBtn.addEventListener('click', () => {
 })
 
 // an array of songs in the playlist
-let songs = ["Alapaap", "Torpedo", "Chiksilog", "Heaven Knows", "Song 5"];
+let playlist = ["Diksyonaryo.mp3", "LEAVES.mp3", "04 Magsayawan.mp3", "With A Smile.mp3", "Song 5"];
 
 // function to shuffle the playlist
 function shufflePlaylist() {
