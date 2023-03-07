@@ -196,7 +196,7 @@ repeatBtn.addEventListener('click', () => {
     repeatBtn.classList.toggle('active');
 })
 
-const playlist = ['Julie Tearjerky', 'Alapaap', 'Pare Ko', 'Halik Ni Hudas', 'Heaven Knows'];
+let songs = ['Julie Tearjerky', 'Alapaap', 'Pare Ko', 'Halik Ni Hudas', 'Heaven Knows'];
 
 function shufflePlaylist() {
   for (let i = playlist.length - 1; i > 0; i--) {
