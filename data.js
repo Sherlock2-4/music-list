@@ -1,4 +1,15 @@
-let randomIcon = document.querySelector('.fa-random');
+
+// an array of songs in the playlist
+let playlist = ["Saan Man Patungo.mp3", "Sandalan.mp3", "Huling Sayaw.mp3", "When i Dream About You.mp3", "Julie Tearjerky.mp3"];
+
+// function to shuffle the playlist
+function shufflePlaylist() {
+  for (let i = playlist.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
+  }
+  console.log("Shuffled playlist: ", playlist);
+}
 
 let songs = [
     {
