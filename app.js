@@ -196,20 +196,6 @@ repeatBtn.addEventListener('click', () => {
     repeatBtn.classList.toggle('active');
 })
 
-// an array of songs in the playlist
-let playlist = ["Diksyonaryo.mp3", "LEAVES.mp3", "04 Magsayawan.mp3", "With A Smile.mp3", "Song 5"];
-
-// function to shuffle the playlist
-function shufflePlaylist() {
-    for (let i = playlist.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
-    }
-    console.log("Shuffled playlist: ", playlist);
-  }
-
-
-
 // volume section
 
 volumeBtn.addEventListener('click', () => {
