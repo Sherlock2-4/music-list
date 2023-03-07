@@ -139,18 +139,6 @@ playBtn.addEventListener('click', () => {
     pauseBtn.classList.add('active');
 })
 
-const playlist = ['Song 1', 'Song 2', 'Song 3', 'Song 4', 'Song 5'];
-
-function shufflePlaylist() {
-  for (let i = playlist.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
-  }
-  console.log('Shuffled playlist:', playlist);
-  // code to play shuffled playlist
-}
-
-
 // pauseBtn click event
 
 pauseBtn.addEventListener('click', () => {
@@ -207,6 +195,19 @@ seekBar.addEventListener('change', () => {
 repeatBtn.addEventListener('click', () => {
     repeatBtn.classList.toggle('active');
 })
+
+const playlist = ['Song 1', 'Song 2', 'Song 3', 'Song 4', 'Song 5'];
+
+function shufflePlaylist() {
+  for (let i = playlist.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
+  }
+  console.log('Shuffled playlist:', playlist);
+  // code to play shuffled playlist
+}
+
+
 
 // volume section
 
