@@ -213,3 +213,14 @@ queue.forEach((item, i) => {
         playBtn.click();
     })
 })	
+function randomTrack(){
+    isRandom ? pauseRandom() : playRandom();
+}
+function playRandom(){
+    isRandom = true;
+    randomIcon.classList.add('randomActive');
+}
+function pauseRandom(){
+    isRandom = false;
+    randomIcon.classList.remove('randomActive');
+}
