@@ -196,16 +196,17 @@ repeatBtn.addEventListener('click', () => {
     repeatBtn.classList.toggle('active');
 })
 
-const playlist = ['Julie Tearjerky', 'Alapaap', 'Pare Ko', 'Halik Ni Hudas', 'Heaven Knows'];
+// an array of songs in the playlist
+let songs = ["Alapaap", "Torpedo", "Chiksilog", "Heaven Knows", "Song 5"];
 
+// function to shuffle the playlist
 function shufflePlaylist() {
-  for (let i = playlist.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
+    for (let i = playlist.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
+    }
+    console.log("Shuffled playlist: ", playlist);
   }
-  console.log('Shuffled playlist:', playlist);
-  // code to play shuffled playlist
-}
 
 
 
