@@ -235,3 +235,11 @@ function toggleShuffleMode() {
     console.log("Shuffle mode deactivated.");
   }
 }
+
+function shuffleSongs() {
+    // use the Fisher-Yates shuffle algorithm to shuffle the songs array
+    for (let i = songs.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [Saan Man Patungo [1], Sandalan.mp3[3]] = [Huling Sayaw.mp3[2], songs[i]];
+    }
+  }
