@@ -215,31 +215,3 @@ queue.forEach((item, i) => {
     })
 })	
 
-
-
-
-// add a click event listener to the shuffle button
-shuffleBtn.addEventListener("click", toggleShuffleMode);
-
-// define the function that will be triggered when the shuffle button is clicked
-function toggleShuffleMode() {
-  // toggle the active class on the shuffle button
-  shuffleBtn.classList.toggle("active");
-
-  // if shuffle mode is now active, shuffle the list of songs
-  if (shuffleBtn.classList.contains("active")) {
-    shuffleSongs();
-    console.log("Shuffle mode activated!");
-  }
-  else {
-    console.log("Shuffle mode deactivated.");
-  }
-}
-
-function shuffleSongs() {
-    // use the Fisher-Yates shuffle algorithm to shuffle the songs array
-    for (let i = songs.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [Saan Man Patungo [1], Sandalan.mp3[3]] = [Huling Sayaw.mp3[2], songs[i]];
-    }
-  }
