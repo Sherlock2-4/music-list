@@ -88,6 +88,7 @@ const backwardBtn = document.querySelector('i.fa-backward');
 const playBtn = document.querySelector('i.fa-play');
 const pauseBtn = document.querySelector('i.fa-pause');
 const repeatBtn = document.querySelector('span.fa-redo');
+const shuffleBtn = document.querySelector('span.fa-random');
 const volumeBtn = document.querySelector('span.fa-volume-up');
 const volumeSlider = document.querySelector('.volume-slider');
 
@@ -214,17 +215,27 @@ queue.forEach((item, i) => {
     })
 })	
 
-// find the shuffle button element
-var shuffleButton = document.querySelector(".fa-random");
 
-// add a click event listener to the shuffle button
-shuffleButton.addEventListener("click", shuffleSongs);
 
-// define the function that will be triggered when the shuffle button is clicked
-function shuffleSongs() {
-  // code to shuffle the songs goes here
-  console.log("Shuffle button clicked!");
+
+// define a variable to keep track of whether shuffle mode is active or not
+var isShuffleMode = false;
+
+// add a click event listener to the repeat button
+repeatBtn.addEventListener("click", toggleRepeatMode);
+
+// define the function that will be triggered when the repeat button is clicked
+function toggleRepeatMode() {
+  // if shuffle mode is currently active, toggle back to repeat mode
+  if (isShuffleMode) {
+    repeatBtn.classList.toggle("active");
+    isShuffleMode = false;
+    console.log("Repeat mode activated!");
+  }
+  // if repeat mode is currently active, toggle to shuffle mode
+  else {
+    repeatBtn.classList.toggle("active");
+    isShuffleMode = true;
+    console.log("Shuffle mode activated!");
+  }
 }
-
-
-
