@@ -216,26 +216,6 @@ queue.forEach((item, i) => {
 })	
 
 
-
-
-// define a variable to keep track of whether shuffle mode is active or not
-var isShuffleMode = false;
-
-// add a click event listener to the repeat button
-repeatBtn.addEventListener("click", toggleRepeatMode);
-
-// define the function that will be triggered when the repeat button is clicked
-function toggleRepeatMode() {
-  // if shuffle mode is currently active, toggle back to repeat mode
-  if (isShuffleMode) {
-    repeatBtn.classList.toggle("active");
-    isShuffleMode = false;
-    console.log("Repeat mode activated!");
-  }
-  // if repeat mode is currently active, toggle to shuffle mode
-  else {
-    repeatBtn.classList.toggle("active");
-    isShuffleMode = true;
-    console.log("Shuffle mode activated!");
-  }
-}
+shuffleBtn.addEventListener('click', () => {
+    shuffleBtn.classList.toggle('active');
+})
