@@ -216,6 +216,35 @@ queue.forEach((item, i) => {
 })	
 
 
-shuffleBtn.addEventListener('click', () => {
-    shuffleBtn.classList.toggle('active');
-})
+
+
+
+// define an array to store the list of songs
+var songs = ["song1", "song2", "song3", "song4", "song5"];
+
+// add a click event listener to the shuffle button
+shuffleBtn.addEventListener("click", toggleShuffleMode);
+
+// define the function that will be triggered when the shuffle button is clicked
+function toggleShuffleMode() {
+  // toggle the active class on the shuffle button
+  shuffleBtn.classList.toggle("active");
+
+  // if shuffle mode is now active, shuffle the list of songs
+  if (shuffleBtn.classList.contains("active")) {
+    shuffleSongs();
+    console.log("Shuffle mode activated!");
+  }
+  else {
+    console.log("Shuffle mode deactivated.");
+  }
+}
+
+// define the function to shuffle the list of songs
+function shuffleSongs() {
+  // use the Fisher-Yates shuffle algorithm to shuffle the songs array
+  for (let i = songs.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [songs[i], songs[j]] = [songs[j], songs[i]];
+  }
+}
