@@ -214,31 +214,17 @@ queue.forEach((item, i) => {
     })
 })	
 
+// find the shuffle button element
+var shuffleButton = document.querySelector(".fa-random");
 
+// add a click event listener to the shuffle button
+shuffleButton.addEventListener("click", shuffleSongs);
 
-// Get the shuffle button element
-const shuffleButton = document.getElementById("shuffleButton");
-
-// Get the playlist element
-const playlist = document.getElementById("playlist");
-
-// Add an event listener to the shuffle button
-shuffleButton.addEventListener("click", shufflePlaylist);
-
-// Define the shuffle function
-function shufflePlaylist() {
-  // Get all the songs in the playlist
-  const songs = Array.from(playlist.children);
-
-  // Shuffle the songs randomly
-  songs.sort(() => Math.random() - 0.5);
-
-  // Clear the playlist
-  playlist.innerHTML = "";
-
-  // Add the shuffled songs back to the playlist
-  songs.forEach(song => {
-    playlist.appendChild(song);
-  });
+// define the function that will be triggered when the shuffle button is clicked
+function shuffleSongs() {
+  // code to shuffle the songs goes here
+  console.log("Shuffle button clicked!");
 }
+
+
 
