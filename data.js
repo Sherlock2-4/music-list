@@ -144,10 +144,6 @@ let songs = [
         cover: 'assets/images/vst.jfif'
     },
 
-    function playRandom(){
-        isRandom = true;
-        randomIcon.classList.add('randomActive');
-    },
     
 
 
@@ -243,23 +239,3 @@ let songs = [
     },
 ];
 
-// find the shuffle button element
-var shuffleBtn = document.querySelector(".fa-random");
-
-// add a click event listener to the shuffle button
-shuffleBtn.addEventListener("click", toggleShuffleMode);
-
-// define the function that will be triggered when the shuffle button is clicked
-function toggleShuffleMode() {
-  // toggle the active class on the shuffle button
-  shuffleBtn.classList.toggle("active");
-
-  // if shuffle mode is now active, shuffle the list of songs
-  if (shuffleBtn.classList.contains("active")) {
-    shuffleSongs();
-    console.log("Shuffle mode activated!");
-  }
-  else {
-    console.log("Shuffle mode deactivated.");
-  }
-}

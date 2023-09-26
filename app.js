@@ -76,6 +76,7 @@ const seekBar = document.querySelector('.music-seek-bar');
 const songName = document.querySelector('.current-song-name');
 const artistName = document.querySelector('.artist-name');
 const coverImage = document.querySelector('.cover');
+const shuffleBtn = document.querySelector('.shuffle-btn');
 const currentMusicTime = document.querySelector('.current-time');
 const musicDuration = document.querySelector('.duration');
 
@@ -88,7 +89,6 @@ const backwardBtn = document.querySelector('i.fa-backward');
 const playBtn = document.querySelector('i.fa-play');
 const pauseBtn = document.querySelector('i.fa-pause');
 const repeatBtn = document.querySelector('span.fa-redo');
-const shuffleBtn = document.querySelector('span.fa-random');
 const volumeBtn = document.querySelector('span.fa-volume-up');
 const volumeSlider = document.querySelector('.volume-slider');
 
